@@ -1,7 +1,8 @@
 // https://leetcode.com/problems/merge-sorted-array/description/?envType=problem-list-v2&envId=two-pointers
-// easy
+// 88 easy
 
 package main
+
 
 import (
 	"fmt"
