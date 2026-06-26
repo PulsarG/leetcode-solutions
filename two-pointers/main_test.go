@@ -4,7 +4,7 @@ import "testing"
 
 var result interface{}
 
-func Benchmark_IOTA(b *testing.B) {
+func Benchmark_SOASA(b *testing.B) {
 	var r interface{}
 
 	for i := 0; i < b.N; i++ {
