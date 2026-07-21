@@ -1,5 +1,5 @@
-// https://leetcode.com/problems/rotate-image/description/?envType=problem-list-v2&envId=matrix
-// 48
+// https://leetcode.com/problems/spiral-matrix/description/?envType=problem-list-v2&envId=matrix
+// 54
 
 package main
 
@@ -17,7 +17,8 @@ func Run() [][]int {
 
 	i, j, l := 0, 0, len(m[0])
 	for i < l {
-		for j < (l - i - 1) {
+		c := l - i - 1
+		for j < c {
 			tmp := m[i][j]
 			x, y := i, j
 			for k := 0; k < 4; k++ {
