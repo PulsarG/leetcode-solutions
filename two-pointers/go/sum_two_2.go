@@ -25,5 +25,5 @@ func Run() []int {
 			a++
 		}
 	}
-	return nilпеш
+	return nil
 }

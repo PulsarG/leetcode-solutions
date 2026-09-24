@@ -1,24 +1,13 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "e:/leetcode-solutions/leetcode-solutions/two-pointers",
-      "program": "e:/leetcode-solutions/leetcode-solutions/two-pointers/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
+    "version": "0.2.0",
+    "configurations": [
+    
         {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "name": "Launch Go File",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${file}"
         }
-      ]
-    }
-  ]
+    ]
 }
