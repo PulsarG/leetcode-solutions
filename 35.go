@@ -1,12 +1,12 @@
-// https://leetcode.com/problems/range-sum-query-2d-immutable/description/
+// https://leetcode.com/problems/search-insert-position/description/
 
 package main
 
 import "fmt"
 
 func main() {
-	a := []int{-1, 0, 3, 5, 9, 12}
-	fmt.Println(Run(a, 9))
+	a := []int{1, 3, 5, 6}
+	fmt.Println(Run(a, 7))
 }
 
 func Run(nums []int, target int) int {
@@ -22,6 +22,9 @@ func Run(nums []int, target int) int {
 			st = x + 1
 		} else {
 			end = x - 1
+		}
+		if st > end {
+			return st
 		}
 	}
 	return -1
